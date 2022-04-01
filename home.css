@@ -1,0 +1,271 @@
+.numbers {
+    background-color: #a82d49;
+    padding: 25px 0px ;
+    max-width: 100% ;
+    height: auto;
+    text-align: center;
+    overflow: hidden
+}
+.numbers .row {
+    margin: 10px 0px;
+}
+.numbers h2 {
+    font-size:50px;
+    font-weight:bold;
+    margin: 10px 0px ;
+    color: #fff;
+    font-family: 'tajwal';
+}
+.numbers h6 {
+    color: #fff;
+    font-family: 'tajwal';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* css to the pride section and ingredients and paralex */
+.pride , .ingredients {
+    background-color: transparent ;
+    padding: 25px 0px;
+    max-width: 100% ;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.pride img , .ingredients img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.pride h2, .ingredients h2 , .paralex h2 {
+    color: #a82d49;
+    width: 80%;
+    line-height:50px;
+    font-family: 'tajwal' ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:35px;
+}
+.pride p , .ingredients p{
+    font-size:16px ;
+    line-height:28px;
+    color:#333;
+    font-family: 'tajwal';
+    margin-top: 15px;
+
+}
+.pride button, .ingredients button {
+    background-color: #a82d49;
+    border: #a82d49;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.pride button a, .ingredients button a {
+    display: block;
+    color:#fff;
+    font-family: 'tajwal';
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.pride button:hover a , .ingredients button:hover a{
+    color: #a82d49;
+}
+.pride button:hover, .ingredients button:hover {
+    background-color: #fff;
+}
+.ingredients ul li {
+    list-style: none;
+    font-family: 'tajwal';
+    list-style-type: square;
+    color: #333;
+    margin-top:10px;
+}
+.ingredients ul {
+    padding: 0;
+}
+/* css for paralex section */
+.paralex {
+    background: url(../../asstets/1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding : 30px 0px;
+    text-align: center;
+}
+.paralex h2 {
+width : 100%;
+}
+.paralex row {
+    margin: 50px 0px ;
+}
+.paralex a {
+    color:#a82d49;
+    font-size: 20px;
+    margin: 20px 0px ;
+    font-family: 'tajwal';
+    text-decoration: none !important;
+}
+.paralex p {
+    color : #444;
+    margin : 20px 0px ;
+    line-height: 32px;
+}
+/* start css blogs section  */
+.blogs {
+    margin-top: 50px;
+    padding: 25px 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.blogs .row:first-child {
+    text-align: center;
+    margin: 25px ;
+
+}
+.blogs h2 { 
+    color: #a82d49;
+    width: 100%;
+    line-height:50px;
+    font-family: 'tajwal' ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:45px;
+    margin: 10px 0px;
+
+}
+.blogs p {
+    font-size:16px ;
+    line-height:28px;
+    color:#333;
+    font-family: 'tajwal';
+    margin-top: 15px;
+}
+.blogs .box {
+    border-top: 1px solid #f6f6f6;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top:10px;
+    border-radius: 5px;
+}
+.blogs .box img {
+    max-width: 100%;
+}
+.blogs .box h5 {
+    color:#a82d49;
+    font-family: 'tajwal';
+    font-size: 22px;
+    margin: 15px 0px;
+}
+.blogs .box span {
+    color:#444;
+    font-family: 'tajwal';
+    font-size: 16px;
+    margin: 10px 0px ;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+
+}
+.blogs .box  h6 {
+    color:#a82d49;
+    font-size: 22px;
+    font-family: 'tajwal';
+}
+.blogs button {
+    width: 140px;
+    height: 40px;
+    text-decoration: center;
+    background-color: #a82d49;
+    border:1px solid #a82d49;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    transition: 0.3s ease-in-out;
+}
+.blogs button a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Tajawal';
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+}
+.blogs button:hover {
+    background-color: transparent;
+}
+.blogs button:hover a{
+    color: #740c24;
+}
+/*start css to the sliderx section */
+.sliderx {
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    width : 100%;
+    max-width: 100% ;
+    text-align: center;
+    padding:50px 0px;
+    margin: 50px 50px;
+
+}
+.sliderx img {
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px;
+    margin-bottom: 150px;
+}
+.sliderx .carousel-caption p {
+   color: #212121;
+   font-size:17px;
+   line-height: 30px;
+}
+.sliderx .carousel-caption span {
+    color: #a82d49;
+    display: block;
+    margin:15px 0px;
+    text-decoration: uppercase;
+    font-size: 17px;
+}
+.sliderx .carousel {
+    background-color: #fff !important;
+    margin : 40px 0px;
+    border : 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.sliderx .carousel-caption  {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: e;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    text-align:center
+   
+}
+.sliderx .carousel-indicators button {
+    width: 30px;
+    height: 10px;
+    background-color: #77132b;
+    border: 1px solid #a82d49;
+    margin: 5px 5px 15px 5px;
+}
+.sliderx .container {
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h3 {
+    text-align: center !important;
+    color:#740c24;
+    position:absolute;
+    top: -50px
+}
