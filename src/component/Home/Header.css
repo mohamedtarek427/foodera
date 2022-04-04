@@ -1,0 +1,58 @@
+header {
+    background: url("../../asstets/header.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    font-family: 'Tajawal', sans-serif;
+    padding: 25px 0px;
+    margin-top:0px
+}
+header .row {
+    margin: 60px 0px;
+}
+header h2 {
+    color: #531523 ;
+    font-size:50px;
+    line-height:60px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bolder;
+    width: 80%;
+    font-weight: bold;
+}
+header p {
+    color: #333;
+    font-family: 'Tajawal', sans-serif;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+header button{
+    width:150px;
+    height:40px;
+    background-color: #7c0f28;
+    border: 1px #7c0f28;
+    box-sizing: border-box;
+    text-align: center;
+    color:#fff;
+    margin: 20px 10px 10pc 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header button:last-of-type {
+    background-color: #fff;
+    color: #000
+}
+header button:hover{
+    transition: 0.2 ease-in-out;
+}
+header button:first-of-type:hover{
+    border: 3px solid #fff;
+    color:#ac2947
+}
+header button:last-of-type:hover{
+    background-color: #ac2947;
+    color:#fff;
+    
+}
