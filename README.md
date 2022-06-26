@@ -2,10 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
+## Demo Live
+https://neon-cuchufli-1a6f13.netlify.app
+=
 ### `npm start`
 
 Runs the app in the development mode.\
